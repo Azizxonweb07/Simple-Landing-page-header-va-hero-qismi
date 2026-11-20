@@ -1,0 +1,38 @@
+.header-inside {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-list a {
+  color: black;
+  font-size: 16px;
+}
+.header-btn-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-btn-box button:nth-child(1) {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  color: #4caf4f;
+}
+
+.header-btn-box button:nth-child(2) {
+  background-color: #4caf4f;
+  border: none;
+  font-size: 14px;
+  color: white;
+  padding: 0 20px;
+  min-height: 40px;
+  border-radius: 6px;
+}
